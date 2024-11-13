@@ -1,0 +1,342 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700 */
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 1vw;
+}
+.navbar {
+  /* width: Fixed (1,440px)px;
+height: Hug (68px)px; */
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+}
+.flex,
+nav {
+  display: flex;
+  align-items: center;
+}
+.flex {
+  flex-wrap: wrap;
+}
+nav {
+  float: right;
+}
+
+.navbar img {
+  height: 4vh;
+  width: 12vw;
+}
+
+ul {
+  margin-left: 2vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+ul li {
+  display: inline;
+  font-size: 1.25vw;
+  margin-right: 1vw;
+  list-style-type: none;
+}
+li a:link {
+  text-decoration: none;
+  color: black;
+}
+li a:visited {
+  color: black;
+}
+li a:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: 700;
+}
+li a:active {
+  background-color: #f3f3f3;
+  color: rgba(0, 0, 0, 0.722);
+}
+.quote {
+  display: inline;
+  /* width: Hug (231px)px;
+height: Hug (68px)px; */
+  padding: 16px 35px 16px 35px;
+  gap: 10px;
+  font-size: 1.25vw;
+
+  border-radius: 14px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color: black;
+  border: 2px solid black;
+  background-color: white;
+}
+.hero-section {
+  margin: 0 1vw;
+}
+button {
+  /* width: Hug (264px)px;
+height: Hug (68px)px; */
+  padding: 16px 35px 16px 35px;
+  gap: 10px;
+  border-radius: 14px;
+  opacity: 0px;
+  color: white;
+  border: 2px solid #191a23;
+  background-color: #191a23;
+}
+.quote:hover {
+  background-color: #191a23;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: #191a23;
+}
+.hero-section {
+  flex-wrap: nowrap;
+  position: relative;
+  top: -2vw;
+}
+.hero-section .left h1 {
+  font-family: Space Grotesk;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: 60.56px;
+  text-align: left;
+}
+.hero-section .left p {
+  font-family: Space Grotesk;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.hero-section .left {
+  width: 50%;
+  /* height: Hug (481px)px; */
+  gap: 35px;
+  opacity: 0px;
+}
+.hero-section .right {
+  width: 50%;
+  /* height: 385px; */
+  /* left: 893.54px; */
+  /* gap: 0px; */
+  position: relative;
+  left: 4vw;
+  /* margin-left: 3vw; */
+  opacity: 0px;
+}
+.hero-section .right img {
+  height: 60vh;
+}
+.mobile {
+  display: none;
+}
+.text {
+  position: relative;
+  left: 1vw;
+  flex-wrap: nowrap;
+  /* float: left; */
+  margin-top: 10vw;
+  width: 70%;
+  height: Hug (51px) px;
+  /* top: 971px; */
+  /* padding: 0px 100px 0px 100px; */
+  /* gap: 40px; */
+  opacity: 0px;
+}
+.text .left {
+  background-color: #b9ff66;
+  padding: 0 3px;
+  border-radius: 5px;
+}
+.desktopviewlogos {
+  width: 105%;
+  position: relative;
+  left: -3vw;
+  max-width: 1441px;
+}
+.services_blocks {
+  width: 105%;
+  position: relative;
+  left: -3vw;
+}
+.cta {
+  /* position: relative; */
+  margin: 5vw 4vw;
+  height: 53vh;
+  flex-wrap: nowrap;
+  border-radius: 40px;
+  background-color: #f3f3f3;
+}
+.cta .left {
+  margin: 3vw;
+  width: 45%;
+}
+.cta .left h3 {
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38.28px;
+  text-align: left;
+}
+.cta .left p {
+  /* //styleName: p; */
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.97px;
+  text-align: left;
+}
+.cta .right {
+  position: relative;
+  left: 5vw;
+}
+.cta .right img {
+  height: 57vh;
+}
+.case_studies .right {
+  width: 60%;
+}
+
+.case_studies_column {
+  background-color: #191a23;
+  /* width: Hug (1,434px)px;
+height: Hug (326px)px; */
+  top: 2877px;
+  left: 3px;
+  /* padding: 0px 100px 0px 100px; */
+  gap: 10px;
+  opacity: 0px;
+  display: table;
+  color: white;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5vw 4vw;
+  padding-left: 1.23vw;
+  height: 53vh;
+  flex-wrap: nowrap;
+  border-radius: 40px;
+}
+
+.case_studies_column .left,
+.case_studies_column .right,
+.case_studies_column .middle {
+  width: 30%;
+  margin-top: 5vw;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 35vh;
+}
+
+.case_studies_column .left,
+.case_studies_column .middle {
+  border-right: 2px solid white;
+  margin-right: 1vw;
+}
+.case_studies_column .left p img,
+.case_studies_column .right p img,
+.case_studies_column .middle p img {
+  width: 19.32px;
+  height: 14px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+  top: 1vw;
+  left: -0.75vw;
+}
+.case_studies_column .left .greentext,
+.case_studies_column .right .greentext,
+.case_studies_column .middle .greentext {
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-weight: 400;
+  color: #b9ff66;
+  line-height: 28px;
+  text-align: left;
+}
+.working_process .one .flex,
+.working_process .one ,
+.working_process .two,
+.working_process .three,
+.working_process .four,
+.working_process .five,
+.working_process .six {
+  border: 2px solid black;
+  border-radius:  2vw;
+  padding: 1vw;
+  border-bottom: 4px solid black;
+  justify-content: space-between;
+}
+.working_process .one .flex {
+  border-color:  transparent;
+}
+.working_process .one {
+  background-color: #b9ff66;
+}
+.working_process .one hr {
+  height: 1px ;
+  background-color: #191a23;
+  border-color: #191a23;
+}
+.working_process .flex .right{
+  float: right;
+}
+.ddesktop {
+width: 1100px;
+/* padding-left: 15px; */
+/* margin: 0 -100px 0 10px; */
+height: 531px;
+/* gap: 40px; */
+opacity: 0px;
+
+}
+.teambutton {
+  float: right;
+  width: 300px;
+  margin-right: 40px;
+}
+.contact_form {
+  display: flex ;
+  justify-content:space-between ;
+  border-radius: 10px;
+  margin: 0 40px ;
+  padding: 10px 0;
+  background-color:  #F3F3F3;
+}
+.contact_form form {
+  width: 40%;
+}
+form input, form button , textarea{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+textarea {
+  height: 70px;
+  border: 2px solid black;
+}
+input[type="radio"]{
+  width: 20%;
+}
+form p {
+  width: 40%;
+}
+.contact_form .right {
+  width: 30%;
+}
+form input[type="radio"]:checked~ .checkmark {
+background-color: green;
+}
